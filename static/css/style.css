@@ -1,0 +1,110 @@
+/* General Reset and Base Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    /* background-image: url('https://img.freepik.com/free-photo/3d-rendering-modern-loft-gym-fitness_105762-2020.jpg'); */
+background-image: url('../images/WebBanner.avif');
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Add slight opacity to background */
+}
+
+/* Header Style */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 3.5em;
+    color: #ff6347; /* Red color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: black;  /* Set the text color of the links to black */
+    font-size: 1.2em;
+    text-decoration: none;
+    margin: 0 10px;
+    font-family: 'Poppins', sans-serif;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #ff6347; /* Change the color to red on hover */
+}
+
+/* Page specific text colors */
+.home-page {
+    color: #1e90ff; /* Blue text for Home Page */
+}
+
+.about-us-page {
+    color: black; /* Black text for About Us Page */
+}
+
+.membership-page {
+    color: black; /* Black text for Membership Page */
+}
+
+/* Section Styling */
+section {
+    text-align: center;
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+    color: #ff6347; /* Red color */
+    font-family: 'Lobster', cursive;
+}
+
+h3 {
+    font-size: 2em;
+    margin: 10px 0;
+    font-family: 'Lobster', cursive;
+    color: #ff6347;
+}
+
+h4, h5 {
+    font-size: 1.8em;
+    margin: 10px 0;
+    font-family: 'Lobster', cursive;
+    color: #ff6347;
+}
+
+p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #ddd;
+}
+
+footer p {
+    font-size: 0.8em;
+}
